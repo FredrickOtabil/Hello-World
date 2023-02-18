@@ -1,1 +1,5 @@
 node_modules
+
+#ingore test.md file
+
+test.md
