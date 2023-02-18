@@ -10,7 +10,6 @@
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
-    - [Deployment](#deployment)
   - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -28,13 +27,19 @@
 
 > Describe between 1-3 key features of the application.
 
+---
+
 - **[User will have access to all the projects and used technologies]**
 - **[User will be updated with the recent working updates]**
 - **[User will be able to contact and purchase merchandise]**
 
+---
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 By following below steps a new developer can make instant use of the project.
+
+---
 
 Get a local copy up and running now:
 
@@ -42,77 +47,46 @@ Get a local copy up and running now:
 
 In order to run this project you need:
 
-<!--
-Example command:
+<h5>Make sure you have the following installed:</h5>
 
-```sh
- gem install rails
-```
- -->
+- <strong>text editor</strong>: eg. vs-code, atom
+- <strong>node v16.x</strong>
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd your-folder
+  git clone https://github.com/FredrickOtabil/Hello-World.git
+  cd Hello-World
 ```
---->
 
 ### Install
 
 Install this project with:
 
-Run : "npm install" in the root directory
-
-<!--
-Example command:
+Run:
 
 ```sh
-  cd my-project
-  gem install
+  npm install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- <div><p>Open the <span style="color: #002053; font-weight: 300">index.html</span> file with your browser</p></div>
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
 ```sh
-  bin/rails test test/models/article_test.rb
+ lhci autorun --upload.target=temporary-public-storage --collect.staticDistDir=.
+ npx hint .
+ npx stylelint "**/*.{css,scss}"
 ```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 ## 👥 Author <a name="authors"></a>
 
